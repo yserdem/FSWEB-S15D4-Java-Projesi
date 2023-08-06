@@ -13,12 +13,13 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
 
  * Amacımız Stack kullanarak bir string değerinin palindrom olup olmadığına karar vermek.
  * İstediğiniz veri yapısını kullanabilirsiniz. Onemli olan ```LIFO``` mantığına uygun bir dizayn yapılması.
- * String değer .,?!_- gibi değerler içerebilir. String değerleri büyük harfle ya da küçük harfle yazılabilir.
+ * String değer .,?!_- gibi değerler içerebilir.Boşluk karakterini içerebilir. String değerleri büyük harfle ya da küçük harfle yazılabilir.
  * Yazacağınız kod bütün bu karakterlere ve küçük harf büyük harfe uygun çalışmalı.
  * Examples:
  * ```I did, did I?``` => palindrom 
  * ```Racecar``` => palindrom 
  * ```hello``` => palindrom değil
+ * ```Was it a car or a cat I saw ?``` => palindrom
  * Çözümünüz mutlaka ```LIFO``` mantığına uygun yazılmalıdır.
 
 ### Queues Challenge
@@ -28,4 +29,5 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
  *  ```I did, did I?``` => palindrom
  * ```Racecar``` => palindrom
  * ```hello``` => palindrom değil
+ * ```Was it a car or a cat I saw ?``` => palindrom
  *  Çözümünüz mutlaka ```LIFO``` ve ```FIFO``` mantığını birlikte içermelidir.
