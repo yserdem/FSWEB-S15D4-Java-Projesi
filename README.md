@@ -31,3 +31,17 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
  * ```hello``` => palindrom değil
  * ```Was it a car or a cat I saw ?``` => palindrom
  *  Çözümünüz mutlaka ```LIFO``` ve ```FIFO``` mantığını birlikte içermelidir.
+
+### Convert Decimal Numbers To Binary
+
+ * Günlük hayatımız da hep 10'luk(Decimal) sistemde çalışırız bu yüzden kullanabildiğimiz rakamlar 0,1,2,3,4,5,6,7,8,9 dur.
+ * Ancak bilgisayarlar 2'lik(binary) sistemde çalışırlar. O yüzden sadece 0 ve 1 rakamlarını bilirler.
+ * Decimal bir sayıyı ikilik tabanda yazabiliriz.
+ * Örnek olarak:
+      * 5 sayısı 2'lik tabanda şu şekilde yazılır 101 => 2^2 + 0 + 2^0
+      * 6 sayısı 2'lik tabanda şu şekilde yazılır 110 => 2^2 + 2^1 + 0
+      * 13 sayısı 2'lik tabanda şu şekilde yazılır => 1101 => 2^3 + 2^2 + 0 + 2^0
+   
+ * Matematiksel olarak ilgili cevirme işlemininin nasıl yapıldığıyla ilgili detayı buradan okuyabilirsiniz: https://www.cuemath.com/numbers/decimal-to-binary/
+ * Görevimiz Decimal number alıp günün sonunda bu değeri binary formata ceviren bir kod yazmak.
+ * Bunun için kullanılabilecek en uygun Veri Yapısı hangisi olurdu ? Çözümünüz bu veri yapısını içermeli.
